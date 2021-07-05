@@ -181,4 +181,26 @@ An input string is valid if:
 ### Constraints:
 - `1 <= s.length <= 104`
 - `s` consists of parentheses only `'()[]{}'`.
+---
+## 6. Remove_Duplicates_from_Sorted_List.py
+Given the `head` of a sorted linked list, *delete all duplicates such that each element appears only once*. Return the *linked list* **sorted** as well.
 
+### Example 1:
+![list1](https://user-images.githubusercontent.com/69154768/124506993-76ca7e80-ddea-11eb-836b-abc3d24a7f16.jpg)
+
+`Input: head = [1,1,2]`
+
+`Output: [1,2]`
+
+### Example 2:
+![list2](https://user-images.githubusercontent.com/69154768/124507025-8ba71200-ddea-11eb-807e-2c2a1c17e832.jpg)
+
+`Input: head = [1,1,2,3,3]`
+
+`Output: [1,2,3]`
+
+### Constraints:
+- The number of nodes in the list is in the range `[0, 300]`.
+- `-100 <= Node.val <= 100`
+- The list is guaranteed to be *sorted* in *ascending order*.
+---
