@@ -245,7 +245,7 @@ Note that because m = 0, there are no elements in nums1. The 0 is only there to 
 - `0 <= m, n <= 200`
 - `1 <= m + n <= 200`
 - `-109 <= nums1[i], nums2[j] <= 109`
-
+---
 ## 8. Pascal's_Triangle.py
 
 Given an integer `numRows`, return the first numRows of Pascal's triangle.
@@ -266,4 +266,38 @@ In Pascal's triangle, each number is the sum of the two numbers directly above i
 ### Constraints:
 
 - `1 <= numRows <= 30`
+---
+## 9. Island_Perimeter.py
+
+You are given a `row x col` grid representing a map where `grid[i][j] = 1` represents land and `grid[i][j] = 0` represents water.
+
+Grid cells are connected horizontally/vertically (not diagonally). The grid is completely surrounded by water, and there is exactly one island (i.e., one or more connected land cells).
+
+The island doesn't have "lakes", meaning the water inside isn't connected to the water around the island. One cell is a square with side length 1. The grid is rectangular, width and height don't exceed 100. Determine the perimeter of the island.
+
+### Example 1:
+
+`Input: grid = [[0,1,0,0],[1,1,1,0],[0,1,0,0],[1,1,0,0]]`
+
+`Output: 16`
+
+### Example 2:
+
+`Input: grid = [[1]]`
+
+`Output: 4`
+
+### Example 3:
+
+`Input: grid = [[1,0]]`
+
+`Output: 4`
+
+### Constraints:
+
+- `row == grid.length`
+- `col == grid[i].length`
+- `1 <= row, col <= 100`
+- `grid[i][j] is 0 or 1.`
+- There is exactly one island in `grid`.
 ---
